@@ -31,10 +31,11 @@ body
 
 header
 {
-  background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("http://res.cloudinary.com/ericjcantu/image/upload/v1502291536/Screen_Shot_2017-08-09_at_11.11.51_AM_pisbo2.png");
+  background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("http://res.cloudinary.com/ericjcantu/image/upload/v1502341658/StockSnap_3PS1GVU42N_xukarm.jpg");
   height: 100vh;
   background-position: center;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 h1
@@ -124,6 +125,7 @@ h3:after{
 
 
 .features h3{
+  font-size: 30px;
   margin-top: 50px;
   margin-bottom: 30px;
 }
@@ -189,5 +191,63 @@ transition: all 0.4s;
 }
 
 .meal{
+  margin-top: 60px;
+}
+
+.pic img{
+  width: 60%;
+  height: 300px;
+  margin-top: 50px;
+  margin-left: 15%;
+  transform: scale(1.15);
+  transition: all 0.4s;
+
+}
+
+.pic img:hover{
+  transform: scale(1.05);
+}
+
+.work-step{
+  margin-top: 50px;
+}
+
+.work-step div{
+  border: 1px solid #e67e22;
+  display: inline-block;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+}
+
+.work-step img{
+  height: 60px;
+  margin-top: 20px;
+  margin-right: 20px;
+  transform: scale(1.15);
+  transition: all 0.4s;
+
+}
+
+.work-step img:hover{
+  transform: scale(1.05);
+
+}
+
+.clearfix{
+  zoom:1;
+}
+
+.clearfix:after{
+  visibility: hidden;
+  content: ".";
+  height: 0;
+  display: block;
+  clear: both;
+}
+
+.mobile{
   margin-top: 60px;
 }
