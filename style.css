@@ -178,13 +178,16 @@ width: 100%;
 
 .meal-photo img{
 width: 100%;
-height: auto;
+height: 250px;
 transform: scale(1.15);
-transition: transform 0.4s;
+transition: all 0.4s;
 }
 
 .meal-photo img:hover{
   transform: scale(1.05);
-  transition: transform 0.3s;
 
+}
+
+.meal{
+  margin-top: 60px;
 }
