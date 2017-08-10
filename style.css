@@ -1,0 +1,190 @@
+*
+{
+  padding: 0;
+  margin: 0;
+}
+
+.row
+{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+
+
+
+body
+{
+  font-family: tahoma;
+
+}
+
+.hero
+{
+  position: relative;
+  bottom: -113px;
+
+
+
+
+}
+
+header
+{
+  background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("http://res.cloudinary.com/ericjcantu/image/upload/v1502291536/Screen_Shot_2017-08-09_at_11.11.51_AM_pisbo2.png");
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+
+h1
+{
+  color: white;
+}
+
+.main-nav{
+  float:right;
+  list-style: none;
+  margin-top:80px;
+}
+
+.main-nav li
+{
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.main-nav li a
+{
+  color: white;
+  text-decoration: none;
+  font-size: 100%;
+  font-weight: bold;
+}
+
+.main-nav li a:hover
+{
+color: #e67e22;
+transition: all 0.3s ease-in;
+padding: 20px;
+}
+
+.logo img{
+  border-radius: 10%;
+  height: 250px;
+  float: left;
+  margin-top: 80px;
+  background-color: black;
+  position: relative;
+  right: -57px;
+
+}
+
+.button{
+  margin-top: 40px;
+}
+
+.btn
+{
+  color: white;
+  border: 1px solid #e67e22;
+  padding: 10px 30px;
+  text-decoration: none;
+  border-radius: 12px;
+  margin-right: 15px;
+}
+
+.btn-half:hover{
+background-color: #e67e22;
+transition: all 0.3s ease-in;
+color: white;
+}
+
+.btn-full:hover{
+  background-color: #e67e22;
+  transition: all 0.3s ease-in;
+color: white;
+}
+
+.copy{
+  width: 70%;
+  margin-left: 15%;
+}
+
+h3:after{
+  width: 100px;
+  height: 2px;
+  background-color: #e67e22;
+  display: block;
+  content: " ";
+  margin: 0 auto;
+  margin-top: 30px;
+
+}
+
+
+.features h3{
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.arranging{
+  text-align: justify;
+}
+
+.features .copy{
+  padding-bottom: 20px;
+  font-size: 15px;
+}
+
+.fa-sun-o{
+color: #e67e22;
+}
+
+.fa-camera{
+color: #e67e22;
+}
+
+.fa-envelope{
+color: #e67e22;
+}
+
+.fa-cog{
+color: #e67e22;
+}
+
+
+
+.col-md-3 h4{
+  font-size: 25px;
+}
+
+.meal-showcase{
+list-style: none;
+width: 100%;
+}
+
+.meal-showcase li{
+  display: block;
+  width: 25%;
+  float: left;
+}
+
+.meal-photo{
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+.meal-photo img{
+width: 100%;
+height: auto;
+transform: scale(1.15);
+transition: transform 0.4s;
+}
+
+.meal-photo img:hover{
+  transform: scale(1.05);
+  transition: transform 0.3s;
+
+}
